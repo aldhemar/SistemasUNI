@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Negocios2015">
+  <DataContextMoniker Name="/Negocios2015DataContext" />
+  <nestedChildShapes>
+    <classShape Id="6b7b815f-5ee5-4432-884d-1b0f509acc8c" absoluteBounds="0.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Negocios2015DataContext/clientes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3a667b5-b0ec-462c-b2b1-f4db59fe9d04" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8cc1bac-f312-42f0-bbaf-243f622a3e1e" absoluteBounds="3.5, 0.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/Negocios2015DataContext/pedidoscabe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1cac6ebd-46c5-44c8-8586-4b91a0afcadd" absoluteBounds="3.515, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.38544840494792); (3.5 : 1.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Negocios2015DataContext/clientes/clientes_pedidoscabe" />
+      <nodes>
+        <classShapeMoniker Id="6b7b815f-5ee5-4432-884d-1b0f509acc8c" />
+        <classShapeMoniker Id="d8cc1bac-f312-42f0-bbaf-243f622a3e1e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="760f10aa-f055-445e-8e7a-3374cd6f1e46" absoluteBounds="0.625, 2.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Negocios2015DataContext/pedidosdeta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1e7ee6c-05dc-44b8-8b15-9138f9bce78c" absoluteBounds="0.64, 3.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.5 : 3.37580485026042); (2.625 : 3.37580485026042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Negocios2015DataContext/pedidoscabe/pedidoscabe_pedidosdeta" />
+      <nodes>
+        <classShapeMoniker Id="d8cc1bac-f312-42f0-bbaf-243f622a3e1e" />
+        <classShapeMoniker Id="760f10aa-f055-445e-8e7a-3374cd6f1e46" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="45ceb885-3019-457a-804c-daa3888ad837" absoluteBounds="3.5, 4.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Negocios2015DataContext/productos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8450200-ceda-498d-bcd6-12de91b48c6e" absoluteBounds="3.515, 4.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.5 : 5.55934945833333); (1.625 : 5.55934945833333); (1.625 : 4.52089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Negocios2015DataContext/productos/productos_pedidosdeta" />
+      <nodes>
+        <classShapeMoniker Id="45ceb885-3019-457a-804c-daa3888ad837" />
+        <classShapeMoniker Id="760f10aa-f055-445e-8e7a-3374cd6f1e46" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

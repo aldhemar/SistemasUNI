@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Negocios2015">
+  <DataContextMoniker Name="/Negocios2015DataContext" />
+  <nestedChildShapes>
+    <classShape Id="f944cf0e-8447-44fe-9a71-ce372ab0c983" absoluteBounds="1.125, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/Negocios2015DataContext/empleados" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eeaed5dc-f83b-47d0-9c7b-f545713bad4d" absoluteBounds="1.1400000000000001, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d1ee874-1fe2-45b2-87cf-1971988fcfb7" absoluteBounds="1.375, 4, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/Negocios2015DataContext/Cargos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdf2f68d-9b8c-46aa-a028-2ba45284913a" absoluteBounds="1.3900000000000001, 4.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.25 : 4); (2.25 : 3.48240397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Negocios2015DataContext/Cargos/Cargos_empleados" />
+      <nodes>
+        <classShapeMoniker Id="4d1ee874-1fe2-45b2-87cf-1971988fcfb7" />
+        <classShapeMoniker Id="f944cf0e-8447-44fe-9a71-ce372ab0c983" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0d61a22c-91f0-4b9d-9d03-f25bcae1e1f2" absoluteBounds="3.875, 0.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/Negocios2015DataContext/Distritos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="209ead3a-6ec6-4b4f-aa5b-1f00a3565d29" absoluteBounds="3.89, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.875 : 1.34699625651042); (3.125 : 1.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Negocios2015DataContext/Distritos/Distritos_empleados" />
+      <nodes>
+        <classShapeMoniker Id="0d61a22c-91f0-4b9d-9d03-f25bcae1e1f2" />
+        <classShapeMoniker Id="f944cf0e-8447-44fe-9a71-ce372ab0c983" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="99aa09a2feaf49cea473e62a3b5df313" Name="Diagrama1">
+        <EntityTypeShape EntityType="Negocios2015Model.categorias" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.productos" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.proveedores" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.Cargos" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.Distritos" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.empleados" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.clientes" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.paises" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.pedidoscabe" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Negocios2015Model.pedidosdeta" Width="1.5" PointX="7.5" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="Negocios2015Model.FK__productos__IdCat__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__pedidosde__IdPro__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__productos__IdPro__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__proveedor__idpai__0DAF0CB0" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__empleados__idCar__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__empleados__idDis__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__pedidosca__IdEmp__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__clientes__idpais__08EA5793" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__pedidosca__IdCli__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="Negocios2015Model.FK__pedidosde__IdPed__2A4B4B5E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
